@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 const firaCode = Fira_Code({ subsets: ["latin"], variable: '--font-fira-code' });
 
 export const metadata: Metadata = {
-  title: "My Name | Creative Developer",
-  description: "A high-end scrollytelling personal portfolio website bridging design and engineering.",
+  title: "Sayeesh Naik | Digital Marketer & Content Strategist",
+  description: "A comprehensive look at my work in building 360-degree digital campaigns. From social media management to advanced Google Analytics, explore how I bridge the gap between brands and their audiences.",
 };
 
 export default function RootLayout({

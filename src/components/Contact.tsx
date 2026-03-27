@@ -58,26 +58,16 @@ export default function Contact() {
           <div className="space-y-12">
             {/* Resume Button */}
             <motion.a 
-              href="#"
+              href="/resume.pdf"
+              download="Sayeesh_Naik_Resume.pdf"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               className="group flex items-center gap-4 w-fit px-8 py-4 bg-transparent border border-white/20 rounded-full text-white font-medium hover:bg-white/5 transition-all"
             >
               <FileText className="text-indigo-400" />
-              <span>Download PDF Resume (2024 Version)</span>
+              <span>Download PDF Resume (2026 Version)</span>
             </motion.a>
 
-            {/* Social Links */}
-            <div className="flex gap-8">
-              <a href="#" className="flex items-center gap-3 text-zinc-400 hover:text-white transition-colors group">
-                  <Globe size={20} />
-                <span className="font-tech text-xs uppercase tracking-widest">LinkedIn</span>
-              </a>
-              <a href="#" className="flex items-center gap-3 text-zinc-400 hover:text-white transition-colors group">
-                  <Code size={20} />
-                <span className="font-tech text-xs uppercase tracking-widest">GitHub</span>
-              </a>
-            </div>
           </div>
         </div>
 
